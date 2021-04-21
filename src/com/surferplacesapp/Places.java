@@ -13,12 +13,12 @@ public class Places {
 		this.country = country;
 	}
 
-	public Places(String name, String country, double lat, double longitude) {
+	public Places(String name, String country, double lat) {
 
 		this.name = name;
 		this.country = country;
 		this.lat = lat;
-		this.longitude = longitude;
+		
 	}
 	
 
